@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* header */
+.header {
+    margin: 5px;
+    padding: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    display: flex;
+}
+
+.heading {
+    font-size: 2rem;
+}
+
+ul {
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: -1rem;
+}
+
+ul li {
+    text-align: center;
+    padding-left: 30px;
+    margin: 2px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    grid-gap: 10px;
+    box-shadow: 5px 0px 8px 7px rgb(233 220 220);
+}
+
+/* Nav bar  */
+.nav_bar_container {
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+.nav {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-icon {
+    margin-right: 5px;
+}
+
+
+/* Images */
+img {
+    display: flex;
+    height: 33px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    margin-right: 17px;
+    margin-bottom: -4px;
+}
+
+
+/* Button  */
+.premium-btn {
+    border-radius: 40px;
+    background-color: rgb(222 179 102);
+    color: rgb(72 65 3);
+}
+
+
+/* Sidebar  */
+.side__bar{
+    float: left;
+    width: 16%;
+}
+.side-bar-container {
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 20px;
+   
+    width: 16%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+
+.items__list {
+    margin: 5px;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.items__list-bold {
+    font-weight: bold;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.top-border {
+    border-top: 1px solid grey;
+}
+
+.side-icon {
+    /* vertical-align: middle */
+    margin-right: 5px;
+}
+
+.qr {
+    display: flex;
+    justify-content: center;
+}
+
+.qr-img {
+    height: 184px;
+    margin-left: 23px;
+    margin-top: 20px;;
+}
+
+.bg-blue{
+    text-align: center;
+    background-color: rgb(203, 227, 233);
+    color: rgb(12, 31, 244);
+    border-radius: 12px;
+    line-height: 5px;
+}
+
+/* Three buttons */
+.three-buttons{
+    float: left;
+    width: 84%;   
+}
+
+.three-button-container{
+    display: flex;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    
+}
+
+.three-button-item{
+    text-align: center;
+    background-color: rgb(233, 248, 253);
+    color: rgb(22, 118, 221);
+    border-radius: 12px;
+    line-height: 15px;
+    padding: 8px 22px 8px 21px;
+    margin: 16px 0px 15px 20px;
+    font-weight: bold;
+}
+
+.three-button-item:hover{
+    cursor: pointer;
+}
+
+.upload-button{
+    color: white;
+    background-color: rgb(22, 118, 221);
+}
+
+.search-bar{
+    margin-top: 19px;
+}
+
+.search{
+    padding-left: 10px;
+    margin-left: 600px;
+    width: 29%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+}
+
+/* Small-details  */
+.left{
+    float: left;
+    font-weight: bold;
+}
+
+.right{
+    float: right;
+    margin-right: 3px;
+}
+
+
+/* Files list  */
+.files__list{
+    position: relative;
+}
+
+.file__name{
+    margin-top: 125px;
+    margin-left: 20px;
+}
+
+.file__item{
+    margin: 15px;
+    margin-left: 195px;
+    font-size: 20px;
+    box-shadow: rgb(221, 221, 221) 0px 3px;
+
+}
+
+.file-icon{
+    padding: 5px;
+    margin: 12px;
+}
+
+.para{
+    text-align: center;
+    margin-left: 380px;
+}
+
+.size{
+    margin-left: 380px;
+}
